@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body {
+    background-image: url('../assets/pattern.png');
+}
+
+
+.card {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    margin: 30px auto;
+    border-style:ridge;
+    box-shadow: 5px 5px grey;
+    border: none;
+}
+
+
+.Economy h1{
+    color: orange;
+    padding-bottom: 30px;
+    /* INSERT AND IMAGE  */
+    background-image: url('../assets/economy.jpg');
+}
+.Economy a{
+    border-style:solid;
+    background-color: orange;     
+    text-decoration: none;
+   
+}
+
+.Luxury a{
+    border-style:solid;
+    background-color: plum;     
+    text-decoration: none;
+ 
+}
+
+
+.Luxury h1{
+    color: blue;
+    padding-bottom: 30px;
+    
+
+}
+.Family h1{
+    color: green;
+    padding-bottom: 30px;
+    
+
+}
+.Family a{
+    border-style:solid;
+    background-color: goldenrod;     
+    text-decoration: none;
+   
+}
+
+.Economy img {
+    top: 40px;
+    right: 100px;
+    width: 150px;
+}
+
+.Luxury img {
+    top: 200px;
+    right: 100px;
+    width: 150px;
+}
+
+.Family img {
+    top: 400px;
+    right: 100px;
+    bottom: 100px;
+    width: 150px;
+    /* margin: 30px auto; */
+}
